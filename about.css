@@ -1,0 +1,19 @@
+h1
+{
+    text-align:center; /*used to align the text in center*/
+    border:solid black 2px; 
+    background-color:bisque; /* i change the background-color using this*/
+    margin-top:10px;
+}
+body
+{
+    background:linear-gradient(to right,pink,rgb(195, 88, 106)); /*use of back-ground image with gradient property*/
+    font-family:'Times New Roman', Times, serif; /*use of font family*/
+    font-size:large;
+}
+
+div
+{
+    background:linear-gradient(to right,rgb(208, 115, 130),rgb(196, 41, 67));
+    padding-bottom:4px;
+}

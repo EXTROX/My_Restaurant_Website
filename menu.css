@@ -1,0 +1,38 @@
+.b1
+{
+    border:2px solid black;
+    background-color: blanchedalmond;
+    text-align: center; /*this property will align the text in center */
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);  /* is used to create the column*/
+    margin:10px 0;
+}
+
+.sub{
+    background-image: linear-gradient(to bottom,#024281ee,#89c4feb9);
+    height:25%;
+    width:100%;
+}
+
+img{
+    height:100%;
+    width:80%;
+}
+.h1
+{
+    background-color:rgb(197, 156, 94);
+    width:80%;
+    height:40%;
+    text-align:center;
+    border:1px solid black;
+}
+.h1:hover
+{
+    background-color:yellowgreen;
+    transition: 0.01s;  /*is used for animation timing*/
+    color:brown;
+    width:80%;
+    height:50%;
+}

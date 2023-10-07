@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Contact Us Page</title>
+        <style>
+            body
+            {
+                background-color:peru;
+            }
+            form
+            {
+                text-align:center;
+            }
+            button
+            {
+                background-color:lightgoldenrodyellow;
+                border-radius:2px;
+                width:175px;
+            }
+            input
+            {
+                border-color: rgba(243, 180, 159,1);
+                border-radius:2px;
+                width:250px;
+                height:25px;
+                border-style: solid;  
+            }
+            textarea
+            {
+                border-color: rgba(243, 180, 159,1);
+                border-radius:2px;
+                width:250px;
+                height:75px;
+                border-style: solid;
+            }
+            button
+            {
+                width:260px;
+                height:25px;
+            }
+            .n1
+            {
+                margin-top:20px;
+            }
+            legend
+            {
+               font-weight:bold;
+               font-size:xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <form> <!--form tag is used to create a form -->
+            <legend><u>Contact Us</u></legend>
+            <input class="n1" type="text" placeholder="Name" required/>  <!--input tag is used to give input to the form-->
+            <br>
+            <br>
+            <input type="email" placeholder="Email" required/> <!--placeholder is used to predefined the value to be filled in the form like here it is email.-->
+            <br>
+            <br>
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /> <!--type attribute is used to give the type of the input-->
+            <br>
+            <br>
+            <textarea name="text" placeholder="Message" rows="4" cols="20"></textarea> <!--textarea is used for  giving address, message-->
+            <br> <!--br tag is used for breaking the line-->
+            <br>
+            <button>SUBMIT</button> <!--button tag is used to create a button-->
+        </form> <!--closing of form tag-->
+    </body>
+</html>
